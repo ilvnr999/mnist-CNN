@@ -11,6 +11,7 @@ def train_model(model, train_loader, val_loader, device, epochs=30, learning_rat
     val_loss_list = []
     val_acc_list = []
     count = 0
+    
     for epoch in range(epochs):
         # 訓練階段
         model.train()
